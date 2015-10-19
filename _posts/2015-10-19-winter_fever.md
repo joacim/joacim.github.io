@@ -3,23 +3,23 @@ layout: post
 title: Hobby project No.1 - WinterFever
 ---
 
-#Objective
+##Objective
 Having fun by building a system to register and display outside temperature
 
-#Setup
+##Setup
 
-##Hardware
+###Hardware
 
 - Raspberry Pi
 - Temperature sensor (DS18B20)
 
-##Software
+###Software
 
-- OS: Raspbian
-- Temperatur reporter daemon: Python poller/rest-poster
-- Data aggregator/source: Java Spring Boot web service
-- Data presenter: Angular-Nvd3 chart web page
+- OS: Raspbian & Ubuntu
+- Temperature reporter: Python daemon polling/posting sensor input
+- Data server: Java Spring Boot web service aggregating/providing reported data
+- Data viewer: Angular-Nvd3 chart web page presenting provided data
 
-#System
+##System
 
-#Conclusion
+##Conclusion
